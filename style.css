@@ -18,13 +18,21 @@ header {
     padding: 20px;
 }
 
-.filme {
-    display: inline-block;
-    width: 200px;
-    margin: 10px;
+.destaque, .plataformas {
+    margin-bottom: 40px;
 }
 
-.filme img {
+h2 {
+    color: #ff0000;
+}
+
+.filme, .plataforma {
+    display: inline-block;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.filme img, .plataforma img {
     width: 100%;
     height: auto;
 }
